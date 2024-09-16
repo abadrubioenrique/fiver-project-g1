@@ -1,0 +1,47 @@
+.fotos{
+max-width: 680px;
+min-width: 50px;
+margin: 0 auto;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.detail{
+    display: block;
+    text-align: center;
+}
+.username{
+    color:#ff5e00;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.detail h1{
+    margin: 0 auto;
+    font-size: 3rem;
+}
+.detail h3{
+    margin: 5px;
+}
+.detail p{
+    text-align: start;
+    margin: 0px 150px 0px 150px;
+}
+.detail div{
+    text-align: center;
+}
+
+
+@media (max-width: 988px){
+    .details{
+        margin: 3%;
+        }
+    .detail{
+       margin: 3%;
+    }
+    .detail p{
+        margin: 0px 50px 0px 50px;
+    }
+    .fotos img{
+        max-width: 550px;
+    }
+	}
